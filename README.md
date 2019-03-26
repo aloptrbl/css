@@ -1,6 +1,6 @@
 # Airbnb CSS / Sass Styleguide Edisi Bahasa Malaysia
 
-*Pendekatan yang umum dan terbaik untuk CSS and Sass*
+*Pendekatan yang umum dan terbaik untuk CSS dan Sass*
 
 ## Isi Kandungan
 
