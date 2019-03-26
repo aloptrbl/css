@@ -1,10 +1,10 @@
-# Airbnb CSS / Sass Styleguide
+# Airbnb CSS / Sass Styleguide Edisi Bahasa Malaysia
 
-*A mostly reasonable approach to CSS and Sass*
+*Pendekatan yang umum dan terbaik untuk CSS and Sass*
 
-## Table of Contents
+## Isi Kandungan
 
-1. [Terminology](#terminology)
+1. [Terminologi](#terminology)
     - [Rule Declaration](#rule-declaration)
     - [Selectors](#selectors)
     - [Properties](#properties)
@@ -25,11 +25,11 @@
 1. [Translation](#translation)
 1. [License](#license)
 
-## Terminology
+## Terminologi
 
 ### Rule declaration
 
-A “rule declaration” is the name given to a selector (or a group of selectors) with an accompanying group of properties. Here's an example:
+“rule declaration” merupakan nama yang diberikan kepada sesuatu selector (atau daripada beberapa selectors) dengan properties yang berada di dalamnya. Sebagai contoh:
 
 ```css
 .listing {
@@ -40,7 +40,7 @@ A “rule declaration” is the name given to a selector (or a group of selector
 
 ### Selectors
 
-In a rule declaration, “selectors” are the bits that determine which elements in the DOM tree will be styled by the defined properties. Selectors can match HTML elements, as well as an element's class, ID, or any of its attributes. Here are some examples of selectors:
+dalam rule declaration, “selectors” adalah penentu dimana element di dalam DOM tree akan diberikan style dengan men-declare-kan properties di dalamnya. Selectors boleh dipadankan dengan HTML elements, dan juga  element's class, ID, atau mana-mana attributes. Di sini adalah sebahagian contoh kepada selectors:
 
 ```css
 .my-element-class {
@@ -54,7 +54,7 @@ In a rule declaration, “selectors” are the bits that determine which element
 
 ### Properties
 
-Finally, properties are what give the selected elements of a rule declaration their style. Properties are key-value pairs, and a rule declaration can contain one or more property declarations. Property declarations look like this:
+Akhirnya, tugas properties adalah memberikan elements yang dipilih sesuatu style. Properties adalah pasangan key-value, dan rule declaration boleh mengandungi satu atau lebih property declarations. Property declarations seperti berikut:
 
 ```css
 /* some selector */ {
@@ -69,17 +69,17 @@ Finally, properties are what give the selected elements of a rule declaration th
 
 ### Formatting
 
-* Use soft tabs (2 spaces) for indentation.
-* Prefer dashes over camelCasing in class names.
-  - Underscores and PascalCasing are okay if you are using BEM (see [OOCSS and BEM](#oocss-and-bem) below).
-* Do not use ID selectors.
-* When using multiple selectors in a rule declaration, give each selector its own line.
-* Put a space before the opening brace `{` in rule declarations.
-* In properties, put a space after, but not before, the `:` character.
-* Put closing braces `}` of rule declarations on a new line.
-* Put blank lines between rule declarations.
+* Gunakan soft tabs (2 spaces) untuk melakukan indent.
+* Lebih baik menggunakan dashes berbanding camelCasing di dalam nama class.
+  - Underscores(_) dan PascalCasing adalah baik jika kamu menggunakan BEM (lihat [OOCSS and BEM](#oocss-and-bem) dibawah).
+* Jangan menggunakan ID selectors.
+* Apabila menggunakan banyak selectors dalam rule declaration, berikan setiap selector mempunyai baris baru.
+* Berikan space sebelum buka kurungan `{` dalam rule declarations.
+* Dalam properties, letakkan space selepas, tetapi bukan sebelumnya dari karekter  `:`.
+* Letak penutup kurungan `}` daripada rule declarations kemudian tambah baris baru.
+* Letak baris kosong antara rule declarations.
 
-**Bad**
+**Teruk**
 
 ```css
 .avatar{
@@ -93,7 +93,7 @@ Finally, properties are what give the selected elements of a rule declaration th
 }
 ```
 
-**Good**
+**Bagus**
 
 ```css
 .avatar {
