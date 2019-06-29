@@ -265,11 +265,11 @@ Mixins should be used to DRY up your code, add clarity, or abstract complexity--
 
 ### Extend directive
 
-`@extend` should be avoided because it has unintuitive and potentially dangerous behavior, especially when used with nested selectors. Even extending top-level placeholder selectors can cause problems if the order of selectors ends up changing later (e.g. if they are in other files and the order the files are loaded shifts). Gzipping should handle most of the savings you would have gained by using `@extend`, and you can DRY up your stylesheets nicely with mixins.
+`@extend` seharusnya dihindari kerana it has unintuitive and potentially dangerous behavior, especially when used with nested selectors. Even extending top-level placeholder selectors can cause problems if the order of selectors ends up changing later (e.g. if they are in other files and the order the files are loaded shifts). Gzipping should handle most of the savings you would have gained by using `@extend`, and you can DRY up your stylesheets nicely with mixins.
 
 ### Nested selectors
 
-**Do not nest selectors more than three levels deep!**
+**Jangan mengunakan nested selectors lebih daripada tiga level!**
 
 ```scss
 .page-container {
@@ -281,22 +281,22 @@ Mixins should be used to DRY up your code, add clarity, or abstract complexity--
 }
 ```
 
-When selectors become this long, you're likely writing CSS that is:
+Jika selectors menjadi terlalu panjang, Kamu telah menulis CSS seperti ini:
 
-* Strongly coupled to the HTML (fragile) *—OR—*
-* Overly specific (powerful) *—OR—*
-* Not reusable
+* Terlalu banyak gabungan terhadap HTML (fragile) *—OR—*
+* Terlalu spesifik (powerful) *—OR—*
+* Tidak reusable
 
 
-Again: **never nest ID selectors!**
+Sekali Lagi: **Jangan pernah nesting ID selectors!**
 
-If you must use an ID selector in the first place (and you should really try not to), they should never be nested. If you find yourself doing this, you need to revisit your markup, or figure out why such strong specificity is needed. If you are writing well formed HTML and CSS, you should **never** need to do this.
+Jika kamu wajib menggunakan ID selector di tempat pertama(dan kamu mesti benar-benar mencuba tidak melakukannya), mereka tidak boleh nested. Jika kamu menemukan melakukan hal ini, kamu perlu untuk meninjau kembali markup anda atau belajar mengapa hal tersebut diperlukan. Jika kamu menulis dengan baik HTML dan CSS, kamu seharusnya **tidak pernah** melakukan hal seperti itu.
 
 **[⬆ back to top](#table-of-contents)**
 
 ## Translation
 
-  This style guide is also available in other languages:
+  Panduan style ini juga tersedia dalam bahasa yang lain:
 
   - ![id](https://raw.githubusercontent.com/gosquared/flags/master/flags/flags/shiny/24/Indonesia.png) **Bahasa Indonesia**: [mazipan/css-style-guide](https://github.com/mazipan/css-style-guide)
   - ![tw](https://raw.githubusercontent.com/gosquared/flags/master/flags/flags/shiny/24/Taiwan.png) **Chinese (Traditional)**: [ArvinH/css-style-guide](https://github.com/ArvinH/css-style-guide)
